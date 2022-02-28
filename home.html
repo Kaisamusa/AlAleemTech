@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Al-Aleem Home Page</title>
+     <!-- fontawesome.com is used to get nice icon -->
+     <script src="https://kit.fontawesome.com/ed7b403c3f.js" crossorigin="anonymous"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <style>
+        .header{
+            background-color: powderblue;
+        }
+         .image-slide{
+            /* width:30%; */
+            position:center;
+            border-radius: 20px 0px;
+            padding:5% 7%;
+
+
+        }
+        carousel-item{
+            background-color: rgba(0, 255, 255, 0.123);
+        }
+        .image{
+            margin-left:50%;
+           transform:rotate(5deg);
+            width:30%;
+            padding:5%;
+        }
+        .section{
+            padding:5%;
+            text-align: center;
+            background-color: lightblue;
+        }
+        .carousel-item{
+            text-align: center;
+        }
+        .slide-image{
+            width:30%;
+        }
+        .icon{
+            color:black;
+        }
+       p{
+            font-size: large;
+            
+
+        }
+        .column{
+            text-align: center;
+            padding:3%;
+        }
+        .navbar-brand{
+            color:white;
+        }
+        .nav-item{
+            color:white;
+        }
+        .logo{
+            text-align: center;
+            border-radius: 20px 10px ;
+            
+            width:15%;
+          
+        }
+        .footer{
+          background-color: grey;
+          background-image: url('./img/back.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          color:blue;
+          text-align: center;
+          padding:3%;
+        }
+        h2{
+          padding:1%;
+        }
+        .form-g{
+          text-align: center;
+          width: 150px;
+          margin:auto;
+          list-style-type: none;
+          color:white;
+          background-color: black;
+          /* float: right; */
+        }
+        .form{
+          color:white;
+          text-decoration: none;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- <img class="logo" src="./img/logo.PNG" alt=""> -->
+    <!-- boostrap header and menu starts-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <!-- <img class="logo" src="./img/logo.PNG" alt=""> -->
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color:white; text-transform: uppercase;" href="#">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" style="color:white; text-transform: uppercase;" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white; text-transform: uppercase;" href="#/Business-Page/business.html">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white; text-transform: uppercase;" text-transform: uppercase; href="/Education-Page/course1.html">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color:white; text-transform: uppercase;" text-transform: uppercase; href="#/Staff/team.html">Staff</a>
+              </li>
+              <img class="logo" src="./img/logo.PNG" alt="">
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- beginning of first content -->
+      <section class="header">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="slide-image" src="./img/logo1.PNG" class="d-block w-100" alt="...">
+         
+          </div>
+          <!-- <div class="carousel-item"> -->
+            <!-- <img class="slide-image" src="./img/prog1.jpg" width="100px;" class="d-block w-100" alt="..."> -->
+          <!-- </div> -->
+          <div class="carousel-item">
+            <img class="slide-image" src="./img/flyer.jpg" class="d-block w-100" alt="...">
+          </div>
+          <!-- <div class="carousel-item">
+            <img class="slide-image" src="./img/img1.jpg" width="500px;" class="d-block w-100" alt="...">
+          </div> -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class=" carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class=" carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+</div>
+</section>
+<!-- end of first content -->
+
+    <!-- boostrap header and menu stops-->
+   
+    <!-- the content page -->
+    <section class="content">
+      <div class="row">
+          <div class="column col-sm-12 col-lg-4">
+              <h3><p>Who are we?</p></h3>
+              <p>We are Al-Aleem Tech Foundation. A non-for profit, and NGO organization that was established in April of 2021.</p>
+              <p>The foundation is a Liberian based foundation and located in Montserrado, Monrovia, Liberia</p>
+              
+          </div>
+          <div class="column col-sm-12 col-lg-4">
+            <h3><p>Vision and Mission</p></h3>
+            <p>Our goal is to expose high school students, and graduates to various career opportunities in the field of Technology</p>
+            <p>Our Vision is to make Liberians marketable, and valuable in the field of Technology. So, that some days, we ourselves can contribute positively to our economy.</p>
+        </div>
+        <div class="column col-sm-12 col-lg-4">
+            <h3><p>Services</p></h3>
+            <p>We provide Tech support to Schools, Businesses, Organizations and individuals.</p>
+           
+            <p>Some of our services include:</p>
+            <p>1.Tech Training</p>
+            <p>2.Building and managing website</p>
+            <p>3.Creating Logo and flyers</p>
+            <p>4.Printing T. Shirts</p>
+          
+        </div>
+      </div>
+      <hr size="2" > <br>
+    </section>
+
+    <section class="footer">
+      <h2>Address: Monrovia, Liberia</h2>
+      <h2> Contact: +14848927450/+231778110784</h2>
+      <h2>Email: aleem.tech3@gmail.com</h2>
+      <ul class="form-g"> <li><a class="form" target="_blank" href="https://forms.gle/NFduKz2XfVrE45eg6"><h2>Form</h2></a></li>
+
+      </ul>
+
+    </section>
+      
+   
+</body>
+</html>
